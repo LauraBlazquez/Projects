@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Header*/
+header img{
+    width: 100%;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffc045;
+    margin-top: -5px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+nav li{
+    list-style: none;
+    padding: 20px;
+}
+nav li:hover{
+    background-color: #c59026;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*Títulos*/
+h2{
+    color: #0a91ab;
+    padding: 20px;
+}
+h3{
+    color: #ffc045;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+/*Sección Videojuegos Index*/
+.videojuegos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.videojuegos img{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+.videojuegos article{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 30%;
+    height: 550px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 2px #ffc045;
+}
+.videojuegos article p, .noticias article p{
+    overflow-y: auto;
+    text-align: justify;
+    padding: 10px;
+    height: 30.4%;
+}
+.videojuegos a, .left a, .right a, input[type="reset"], input[type="submit"]{
+    align-self: end;
+    background-color: #ffc045;
+    border-radius: 5px;
+    padding: 3px;
+}
+.videojuegos a{
+    margin: 5px;
+}
+.videojuegos a:hover, .noticias a:hover, .left a:hover, .right a:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+    background-color: #c59026;  
+}
+
+/*Div Submain (Noticias+Trucos)*/
+.submain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/*Sección Noticias*/
+.noticias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.noticias img{
+    width: 100%;
+    height: 330px;
+}
+.noticias article{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 48%;
+    margin-bottom: 30px;
+}
+.noticias a{
+    align-self: end;
+    background-color: #ffc045;
+    border-radius: 5px;
+    text-align: right;
+    padding: 0.5%;
+    margin: -30px 1% 1% 1%;
+    width: 97%;
+}
+.noticias h2, .trucos h2, .contacto h2{
+    text-align: center;
+    width: 93.5%;
+    height: 30px;
+}
+
+/*Sección trucos*/
+.trucos{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 34.7%;
+    background-color: #0a90ab36;
+}
+.trucos article {
+    font-size: 15px;
+    width: 93.5%;
+    margin: 1%;
+    padding: 2%;
+    text-align: justify;
+}
+.trucos article:hover{
+    background-color: #0a90ab83;
+    border-radius: 10px;
+}
+.trucos a{
+    font-weight: normal;
+}
+.trucos hr{
+    width: 80%;
+    align-self: center;
+    border: none;
+    height: 0.1%;
+    background: grey;
+    margin: -0.5% 0 0.5% 0;
+}
+
+/*Sección Ranking*/
+.ranking{
+    background-color: #8a8070;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.ranking article{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 12%;
+    margin: 10px;
+}
+.ranking img{
+    width: 80%;
+    border-radius: 100%;
+}
+.ranking h2{
+    color: #ffc045;
+    text-align: center;
+    width: 95.3%;
+    height: 30px;
+}
+.ranking h3{
+    color: black;
+    padding: 0;
+}
+.ranking p{
+    text-align: center;
+}
+
+/*Footer*/
+address{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 99.5%;
+}
+address p{
+    text-align: center;
+    width: 30%;
+}
+p img{
+    width: 12px;
+}
+/*RS*/
+.RS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.RS img{
+    height: 30px;
+    padding: 5px;
+}
+
+/*Videojuegos.html*/
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left, .right{
+    display: flex;
+    flex-flow: row;
+    width: 95%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 2px #ffc045;
+}
+.right{
+    flex-flow: row-reverse;
+}
+.left img{
+    width: 897px;
+    border-radius: 8px 0 0 8px;
+}
+.right img{
+    width: 897px;
+    border-radius: 0 8px 8px 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: auto;
+    text-align: justify;
+    padding: 20px;
+}
+.content h3{
+    padding: 0;
+}
+#doki{
+    width: 897px;
+    height: 452px;
+}
+
+/*Detalle Videojuego*/
+.detalle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.detalle article{
+    width: 55%;
+    text-align: justify;
+}
+.detalle #fecha, .detalle h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.detalle h3, .contacto h3{
+    background-color: #0a91ab;
+    padding: 5px;
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.detalle img{
+    width: 100%;
+}
+.detalle a{
+    background-color: #ffc045;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 94.7%;
+}
+.detalle hr{
+    width: 50%;
+    margin: -20px 0 40px 25%;
+}
+
+/*Contacto*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 600px;
+}
+.contacto h3{
+    margin: 20px 0;
+    width: 98.5%;
+}
+form{
+    width: 70%;
+}
+label{
+    font-weight: bold;
+}
+label[for="notificaciones"]{
+    font-weight: lighter;
+    font-size: 13px;
+}
+label[for="comment"]{
+    position: absolute;
+}
+input, input[type="checkbox"]{
+    font-size: 16px;
+    padding: 2px;
+    margin: 5px 5px 15px 0;
+}
+input[type="text"]{
+    width: 38.7%;
+}
+input[type="email"]{
+    width: 42.9%;
+}
+textarea{
+    margin-top: 25px;
+    height: 100px;
+    width: 600px;
+    max-height: 150px;
+    max-width: 787px;
+}
+input[type="reset"]{ 
+    margin: 10px 0 0 577px;
+}

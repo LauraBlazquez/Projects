@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulario</title>
+        <meta name="author" content="Laura Blazquez">
+        <meta name="description" content="Pt 1 HTML">
+        <link rel="icon" type="image/png" href="src/itb.png">
+        <link rel="stylesheet" href="pt3.css">
+    </head>
+    <body>
+        <header>
+            <img src="src/cabecera.jpg">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="videojuegos.html">VIDEOJUEGOS</a></li>
+                <li><a href="index.html#noticias">NOTICIAS</a></li>
+                <li><a href="index.html#ranking">RANKING</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <main class="container">
+            <section class="contacto">
+                <h2>DATE DE ALTA</h2>
+                <form action="action.php" method="get">
+                    <h3>Datos personales:</h3>
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="nacimiento">Fecha Nacimiento:</label>
+                    <input type="date" name="nacimiento" id="nacimiento">
+                    <input type="checkbox" name="notificaciones" id="notificaciones">
+                    <label for="notificaciones">Deseo recibir notificaciones cuando haya novedades en la web.</label>
+                    <h3>¿Algo más que añadir?</h3>
+                    <label for="comment">Descripción:</label>
+                    <textarea type="textarea" name="comment" id="comment"></textarea>                    
+                    <input type="reset" name="reset" id="reset">
+                    <input type="submit" name="submit" id="submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <address>
+                <div class="RS">
+                    <a href="https://www.instagram.com" target="_blank"><img src="src/instagram.png"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="src/facebook.png"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="src/twitter.jfif"></a>
+                    <a href="https://youtube.com" target="_blank"><img src="src/youtube.jfif"></a>
+                </div>
+                <p>Carrer d'Aiguablava 121<br>08033 Barcelona</p>
+                <p>Copyright <img src="src/copyright.jfif"> 2022</p>
+            </address>
+        </footer>
+    </body>
+</html>
