@@ -1,0 +1,362 @@
+# Blender 4.0.1 MTL File: 'Laura_Blazquez.blend'
+# www.blender.org
+
+newmtl 1366_2000
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/1366_2000.jpg
+map_d Laura_Blazquez_habitacion/corcho/1366_2000.jpg
+
+newmtl Alfombra_Rosa_Palo
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/BubblyRows/BoucleBubblyRows001_COL_1K_Rosa.png
+
+newmtl Azul_Brillante
+Ns 490.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.443667 1.447403 2.004318
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Blanco
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000168 1.000000 0.999928
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Blanco_Brillante
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 2.000000 1.999517 1.999517
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Botones_3DS
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.003676 0.255000 0.356000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Cemento
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/concrete_floor_worn_001_2k.blend/concrete_floor_worn_001_diff_2k.jpg
+
+newmtl Chapa
+Ns 601.540588
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Chasis_Claro_3DS
+Ns 490.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.033929 0.513122 0.488581
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Chasis_Negro_3DS
+Ns 640.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.012270 0.012270 0.012270
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Chasis_Oscuro_3DS
+Ns 490.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.004061 0.255475 0.355537
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Corcho
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/WoodChips/GroundWoodChips001_COL_2K.jpg
+
+newmtl Cristal
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.957370 0.957370 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.490000
+illum 9
+
+newmtl Dias
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800458 0.232353 0.453654
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Dorado
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Laura_Blazquez_habitacion/assets/MetalGoldPaint/MetalGoldPaint002_COL_2K_METALNESS.png
+
+newmtl Estampado_Añil
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/TowelCotton/TowelCotton001_COL_1K_Añil.png
+
+newmtl Estampado_Rosa_Granate
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/BubblyRows/BoucleBubblyRows001_COL_1K_Rojo.png
+
+newmtl Estampado_Verde
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/BubblyRows/BoucleBubblyRows001_COL_1K_Verde.png
+
+newmtl GettyImages-181331018
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/GettyImages-181331018.jpg
+map_d Laura_Blazquez_habitacion/corcho/GettyImages-181331018.jpg
+
+newmtl Joystick
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.971183 1.000000 0.715846
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Madera_Grisacea
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/wood_table_worn_2k.blend/wood_table_worn_diff_2k_grey.jpg
+
+newmtl Madera_Normal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/wood_table_worn_2k.blend/wood_table_worn_diff_2k.jpg
+
+newmtl Mullidos
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/TowelCotton/TowelCotton001_COL_1K_Amarillo.png
+
+newmtl Negro_Opaco
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Pantallas
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Pared_Exterior
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/brick_wall_006_2k.blend/brick_wall_006_diff_2k.jpg
+
+newmtl Pared_Interior
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.034236 0.119009 0.169715
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Plástico_Despertador
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.007358 0.355535 0.008067
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Sin_título
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/Sin título.jpeg
+map_d Laura_Blazquez_habitacion/corcho/Sin título.jpeg
+
+newmtl Suelo
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/wood_floor_worn_2k.blend/wood_floor_worn_diff_2k.jpg
+
+newmtl Sábana_Bajera_Rosa_Palo
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Laura_Blazquez_habitacion/assets/TowelCotton/TowelCotton001_COL_1K_Rosa.png
+
+newmtl calendario
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/calendario.jpg
+map_d Laura_Blazquez_habitacion/corcho/calendario.jpg
+
+newmtl fotografo-de-paisajes-naturales-del-ano-ganador-absoluto_5cbce1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/fotografo-de-paisajes-naturales-del-ano-ganador-absoluto_5cbce102_800x533.jpg
+map_d Laura_Blazquez_habitacion/corcho/fotografo-de-paisajes-naturales-del-ano-ganador-absoluto_5cbce102_800x533.jpg
+
+newmtl oddle-1-ksRC--1350x900
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/oddle-1-ksRC--1350x900.jpg
+map_d Laura_Blazquez_habitacion/corcho/oddle-1-ksRC--1350x900.jpg
+
+newmtl paisaje-digital-en-atardecer
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/paisaje-digital-en-atardecer.jpg
+map_d Laura_Blazquez_habitacion/corcho/paisaje-digital-en-atardecer.jpg
+
+newmtl paisajes-de-yosemite
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Laura_Blazquez_habitacion/corcho/paisajes-de-yosemite.jpg
+map_d Laura_Blazquez_habitacion/corcho/paisajes-de-yosemite.jpg

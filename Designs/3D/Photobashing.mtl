@@ -1,0 +1,62 @@
+# Blender 4.0.2 MTL File: 'LauraBlazquez_photobashing.blend'
+# www.blender.org
+
+newmtl 71IwTmmMCPL
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd D:/M16/ENTREGADO/LauraBlazquez_photobashing/piano.jpg
+map_d D:/M16/ENTREGADO/LauraBlazquez_photobashing/piano.jpg
+
+newmtl cabina
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.018500 0.191204 0.417881
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl cabinas-telefónicas-1024x683
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd D:/M16/ENTREGADO/LauraBlazquez_photobashing/cabina.jpg
+map_d D:/M16/ENTREGADO/LauraBlazquez_photobashing/cabina.jpg
+
+newmtl foto-puerta
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd D:/M16/ENTREGADO/LauraBlazquez_photobashing/puerta.png
+map_d D:/M16/ENTREGADO/LauraBlazquez_photobashing/puerta.png
+
+newmtl piano
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.520986 0.434148 0.450779
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl puerta
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.412539 0.304995 0.208633
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
