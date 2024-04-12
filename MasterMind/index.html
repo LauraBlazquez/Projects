@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mastermind.css">
+    <script src="index.js"></script>
+    <title>PT2 Mastermind</title>
+</head>
+
+<body class="w100 flex wrap center" onload="init()">
+    <main class="w95">
+        <div class="bloqueado">
+            <h1>Mastermind</h1>
+            <section class="w100 flex wrap center">
+                <div class="w100 flex wrap">
+                    <div class="w25">
+                        <div class="cel flex master"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex master"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex master"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex master"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="w100 flex wrap center comprobar">
+                <label class="w95" for="numero">Haz tu combinación seleccionando los colores que quieras</label><br>
+                <section id="selección" class="w100 flex wrap center">
+                    <div class="w100 flex wrap center">
+                        <div class="w8">
+                            <div id="white" class="w100 cel flex" onclick="AddColor('white')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="green" class="w100 cel flex" onclick="AddColor('green')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="red" class="w100 cel flex" onclick="AddColor('red')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="blue" class="w100 cel flex" onclick="AddColor('blue')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="violet" class="w100 cel flex" onclick="AddColor('violet')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="yellow" class="w100 cel flex" onclick="AddColor('yellow')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="orange" class="w100 cel flex" onclick="AddColor('orange')"></div>
+                        </div>
+                        <div class="w8">
+                            <div id="cyan" class="w100 cel flex" onclick="AddColor('cyan')"></div>
+                        </div>
+                    </div>
+                </section>
+                <div class="w95 flex">
+                    <div class="w25">
+                        <div class="cel flex color"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex color"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex color"></div>
+                    </div>
+                    <div class="w25">
+                        <div class="cel flex color"></div>
+                    </div>
+                </div>
+                <button class="w40 info" id="delete" onclick="DeleteLastInput()">Eliminar</button>
+                <button class="w95" id="check" onclick="Verify()">Comprobar</button>
+            </section>
+
+            <section class="w100 info">
+                <p class="w95" id="info">Primer intento, suerte!</p>
+            </section>
+        </div>
+
+        <section id="Result">
+            <!-- aquí es donde deberemos ir añadiendo filas según el número de intentos.-->
+        </section>
+
+        <section>
+            <h3>Reglas del juego</h3>
+            <p>Cada círculo negro indica un color que está en el código secreto, y además en la posición correcta. </p>
+            <p>Cada círculo blanco indica un color que está en el código secreto, pero no en la posición correcta. </p>
+        </section>
+    </main>
+</body>
+
+</html>

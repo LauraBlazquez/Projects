@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buscaminas</title>
+    <script src="js/juego.js"></script>
+    <script src="js/tablero.js"></script>
+    <script src="js/jugador.js"></script>
+    <script src="js/casilla.js"></script>
+    <link rel="stylesheet" type="text/css" href="buscaminas.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Enlace para el icono de configuración -->
+</head>
+
+<body onload="Juego.init()">
+    <div id="game">
+        <h1>Buscaminas<i class="fas fa-cog"></i></h1>
+        <button id="register">Registrarse</button>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <form id="registerForm">
+            <h2>Regístro</h2>
+            <label>Nombre:</label><input type="text" id="username" name="username" required><br>
+            <label>Apellido:</label><input type="text" id="surname" name="surname" required><br>
+            <label>Cumpleaños:</label><input type="date" id="birthDate" name="birthDate" required><br>
+            <label>Nick:</label><input type="text" id="nickname" name="nickname" required><br>
+            <label>Email:</label><input type="email" id="email" name="email" required><br>
+            <hr>
+            <h2>Tablero</h2>
+            <label>Filas:</label><input type="number" id="rows" name="rows" required><br>
+            <label>Columnas:</label><input type="number" id="cols" name="cols" required><br>
+            <label>Bombas:</label><input type="number" id="bombs" name="bombs" required><br>
+            <button class="save" type="submit">Guardar</button>
+        </form>
+    </div>
+</body>
+
+</html>
